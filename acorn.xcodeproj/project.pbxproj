@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C46D9E01CD3F9140079989C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C46D9DF1CD3F9140079989C /* AppDelegate.swift */; };
+		0C46D9E21CD3F9140079989C /* HomeScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C46D9E11CD3F9140079989C /* HomeScreenController.swift */; };
+		0C46D9E51CD3F9140079989C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C46D9E31CD3F9140079989C /* Main.storyboard */; };
+		0C46D9E71CD3F9150079989C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C46D9E61CD3F9150079989C /* Assets.xcassets */; };
+		0C46D9EA1CD3F9150079989C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C46D9E81CD3F9150079989C /* LaunchScreen.storyboard */; };
+		0C46D9F51CD3F9160079989C /* acornTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C46D9F41CD3F9160079989C /* acornTests.swift */; };
+		0C46DA001CD3F9160079989C /* acornUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C46D9FF1CD3F9160079989C /* acornUITests.swift */; };
+		0C46DA111CD400F00079989C /* PlayGameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C46DA101CD400F00079989C /* PlayGameController.swift */; };
+		0C46DA131CD4057C0079989C /* doge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C46DA121CD4057C0079989C /* doge.jpg */; };
+		0C46DA151CD405880079989C /* mush.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C46DA141CD405880079989C /* mush.png */; };
+		0C46DA171CD40E820079989C /* pongtrypaddle.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C46DA161CD40E820079989C /* pongtrypaddle.png */; };
+		0C46DA1B1CD42B120079989C /* montagnes.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C46DA181CD42B120079989C /* montagnes.png */; };
+		0C46DA1C1CD42B120079989C /* arbres_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C46DA191CD42B120079989C /* arbres_bg.png */; };
+		0C46DA1D1CD42B120079989C /* arbres_fg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C46DA1A1CD42B120079989C /* arbres_fg.png */; };
+		0C481E3B1CD6960500E64727 /* wall.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C481E3A1CD6960500E64727 /* wall.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C46D9F11CD3F9160079989C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C46D9D41CD3F9130079989C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C46D9DB1CD3F9130079989C;
+			remoteInfo = acorn;
+		};
+		0C46D9FC1CD3F9160079989C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C46D9D41CD3F9130079989C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C46D9DB1CD3F9130079989C;
+			remoteInfo = acorn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C46D9DC1CD3F9130079989C /* acorn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = acorn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C46D9DF1CD3F9140079989C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0C46D9E11CD3F9140079989C /* HomeScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenController.swift; sourceTree = "<group>"; };
+		0C46D9E41CD3F9140079989C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C46D9E61CD3F9150079989C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C46D9E91CD3F9150079989C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C46D9EB1CD3F9150079989C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C46D9F01CD3F9160079989C /* acornTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = acornTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C46D9F41CD3F9160079989C /* acornTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = acornTests.swift; sourceTree = "<group>"; };
+		0C46D9F61CD3F9160079989C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C46D9FB1CD3F9160079989C /* acornUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = acornUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C46D9FF1CD3F9160079989C /* acornUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = acornUITests.swift; sourceTree = "<group>"; };
+		0C46DA011CD3F9160079989C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C46DA101CD400F00079989C /* PlayGameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayGameController.swift; sourceTree = "<group>"; };
+		0C46DA121CD4057C0079989C /* doge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = doge.jpg; sourceTree = "<group>"; };
+		0C46DA141CD405880079989C /* mush.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mush.png; sourceTree = "<group>"; };
+		0C46DA161CD40E820079989C /* pongtrypaddle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pongtrypaddle.png; sourceTree = "<group>"; };
+		0C46DA181CD42B120079989C /* montagnes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = montagnes.png; sourceTree = "<group>"; };
+		0C46DA191CD42B120079989C /* arbres_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arbres_bg.png; sourceTree = "<group>"; };
+		0C46DA1A1CD42B120079989C /* arbres_fg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arbres_fg.png; sourceTree = "<group>"; };
+		0C481E3A1CD6960500E64727 /* wall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wall.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C46D9D91CD3F9130079989C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C46D9ED1CD3F9160079989C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C46D9F81CD3F9160079989C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C46D9D31CD3F9130079989C = {
+			isa = PBXGroup;
+			children = (
+				0C46D9DE1CD3F9140079989C /* acorn */,
+				0C46D9F31CD3F9160079989C /* acornTests */,
+				0C46D9FE1CD3F9160079989C /* acornUITests */,
+				0C46D9DD1CD3F9130079989C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C46D9DD1CD3F9130079989C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C46D9DC1CD3F9130079989C /* acorn.app */,
+				0C46D9F01CD3F9160079989C /* acornTests.xctest */,
+				0C46D9FB1CD3F9160079989C /* acornUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C46D9DE1CD3F9140079989C /* acorn */ = {
+			isa = PBXGroup;
+			children = (
+				0C46DA0F1CD3F9E10079989C /* View */,
+				0C46DA0E1CD3F9C90079989C /* Model */,
+				0C46DA0D1CD3F9BE0079989C /* Controller */,
+				0C46D9E61CD3F9150079989C /* Assets.xcassets */,
+				0C46D9EB1CD3F9150079989C /* Info.plist */,
+			);
+			path = acorn;
+			sourceTree = "<group>";
+		};
+		0C46D9F31CD3F9160079989C /* acornTests */ = {
+			isa = PBXGroup;
+			children = (
+				0C46D9F41CD3F9160079989C /* acornTests.swift */,
+				0C46D9F61CD3F9160079989C /* Info.plist */,
+			);
+			path = acornTests;
+			sourceTree = "<group>";
+		};
+		0C46D9FE1CD3F9160079989C /* acornUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0C46D9FF1CD3F9160079989C /* acornUITests.swift */,
+				0C46DA011CD3F9160079989C /* Info.plist */,
+			);
+			path = acornUITests;
+			sourceTree = "<group>";
+		};
+		0C46DA0D1CD3F9BE0079989C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0C46D9DF1CD3F9140079989C /* AppDelegate.swift */,
+				0C46D9E11CD3F9140079989C /* HomeScreenController.swift */,
+				0C46DA101CD400F00079989C /* PlayGameController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		0C46DA0E1CD3F9C90079989C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0C46DA121CD4057C0079989C /* doge.jpg */,
+				0C46DA161CD40E820079989C /* pongtrypaddle.png */,
+				0C46DA141CD405880079989C /* mush.png */,
+				0C46DA181CD42B120079989C /* montagnes.png */,
+				0C481E3A1CD6960500E64727 /* wall.png */,
+				0C46DA191CD42B120079989C /* arbres_bg.png */,
+				0C46DA1A1CD42B120079989C /* arbres_fg.png */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0C46DA0F1CD3F9E10079989C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0C46D9E81CD3F9150079989C /* LaunchScreen.storyboard */,
+				0C46D9E31CD3F9140079989C /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C46D9DB1CD3F9130079989C /* acorn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C46DA041CD3F9160079989C /* Build configuration list for PBXNativeTarget "acorn" */;
+			buildPhases = (
+				0C46D9D81CD3F9130079989C /* Sources */,
+				0C46D9D91CD3F9130079989C /* Frameworks */,
+				0C46D9DA1CD3F9130079989C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = acorn;
+			productName = acorn;
+			productReference = 0C46D9DC1CD3F9130079989C /* acorn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0C46D9EF1CD3F9160079989C /* acornTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C46DA071CD3F9160079989C /* Build configuration list for PBXNativeTarget "acornTests" */;
+			buildPhases = (
+				0C46D9EC1CD3F9160079989C /* Sources */,
+				0C46D9ED1CD3F9160079989C /* Frameworks */,
+				0C46D9EE1CD3F9160079989C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C46D9F21CD3F9160079989C /* PBXTargetDependency */,
+			);
+			name = acornTests;
+			productName = acornTests;
+			productReference = 0C46D9F01CD3F9160079989C /* acornTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0C46D9FA1CD3F9160079989C /* acornUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C46DA0A1CD3F9160079989C /* Build configuration list for PBXNativeTarget "acornUITests" */;
+			buildPhases = (
+				0C46D9F71CD3F9160079989C /* Sources */,
+				0C46D9F81CD3F9160079989C /* Frameworks */,
+				0C46D9F91CD3F9160079989C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C46D9FD1CD3F9160079989C /* PBXTargetDependency */,
+			);
+			name = acornUITests;
+			productName = acornUITests;
+			productReference = 0C46D9FB1CD3F9160079989C /* acornUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C46D9D41CD3F9130079989C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Swaggerz Light";
+				TargetAttributes = {
+					0C46D9DB1CD3F9130079989C = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 9VZRM7QVQH;
+					};
+					0C46D9EF1CD3F9160079989C = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 9VZRM7QVQH;
+						TestTargetID = 0C46D9DB1CD3F9130079989C;
+					};
+					0C46D9FA1CD3F9160079989C = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 9VZRM7QVQH;
+						TestTargetID = 0C46D9DB1CD3F9130079989C;
+					};
+				};
+			};
+			buildConfigurationList = 0C46D9D71CD3F9130079989C /* Build configuration list for PBXProject "acorn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C46D9D31CD3F9130079989C;
+			productRefGroup = 0C46D9DD1CD3F9130079989C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C46D9DB1CD3F9130079989C /* acorn */,
+				0C46D9EF1CD3F9160079989C /* acornTests */,
+				0C46D9FA1CD3F9160079989C /* acornUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C46D9DA1CD3F9130079989C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C46D9EA1CD3F9150079989C /* LaunchScreen.storyboard in Resources */,
+				0C481E3B1CD6960500E64727 /* wall.png in Resources */,
+				0C46DA171CD40E820079989C /* pongtrypaddle.png in Resources */,
+				0C46DA151CD405880079989C /* mush.png in Resources */,
+				0C46D9E71CD3F9150079989C /* Assets.xcassets in Resources */,
+				0C46DA131CD4057C0079989C /* doge.jpg in Resources */,
+				0C46D9E51CD3F9140079989C /* Main.storyboard in Resources */,
+				0C46DA1D1CD42B120079989C /* arbres_fg.png in Resources */,
+				0C46DA1B1CD42B120079989C /* montagnes.png in Resources */,
+				0C46DA1C1CD42B120079989C /* arbres_bg.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C46D9EE1CD3F9160079989C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C46D9F91CD3F9160079989C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C46D9D81CD3F9130079989C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C46D9E21CD3F9140079989C /* HomeScreenController.swift in Sources */,
+				0C46DA111CD400F00079989C /* PlayGameController.swift in Sources */,
+				0C46D9E01CD3F9140079989C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C46D9EC1CD3F9160079989C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C46D9F51CD3F9160079989C /* acornTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C46D9F71CD3F9160079989C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C46DA001CD3F9160079989C /* acornUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C46D9F21CD3F9160079989C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C46D9DB1CD3F9130079989C /* acorn */;
+			targetProxy = 0C46D9F11CD3F9160079989C /* PBXContainerItemProxy */;
+		};
+		0C46D9FD1CD3F9160079989C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C46D9DB1CD3F9130079989C /* acorn */;
+			targetProxy = 0C46D9FC1CD3F9160079989C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0C46D9E31CD3F9140079989C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C46D9E41CD3F9140079989C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0C46D9E81CD3F9150079989C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C46D9E91CD3F9150079989C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0C46DA021CD3F9160079989C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0C46DA031CD3F9160079989C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C46DA051CD3F9160079989C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = acorn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = g.acorn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		0C46DA061CD3F9160079989C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = acorn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = g.acorn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		0C46DA081CD3F9160079989C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = acornTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = g.acornTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/acorn.app/acorn";
+			};
+			name = Debug;
+		};
+		0C46DA091CD3F9160079989C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = acornTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = g.acornTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/acorn.app/acorn";
+			};
+			name = Release;
+		};
+		0C46DA0B1CD3F9160079989C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = acornUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = g.acornUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = acorn;
+			};
+			name = Debug;
+		};
+		0C46DA0C1CD3F9160079989C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = acornUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = g.acornUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = acorn;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C46D9D71CD3F9130079989C /* Build configuration list for PBXProject "acorn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C46DA021CD3F9160079989C /* Debug */,
+				0C46DA031CD3F9160079989C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C46DA041CD3F9160079989C /* Build configuration list for PBXNativeTarget "acorn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C46DA051CD3F9160079989C /* Debug */,
+				0C46DA061CD3F9160079989C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C46DA071CD3F9160079989C /* Build configuration list for PBXNativeTarget "acornTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C46DA081CD3F9160079989C /* Debug */,
+				0C46DA091CD3F9160079989C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C46DA0A1CD3F9160079989C /* Build configuration list for PBXNativeTarget "acornUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C46DA0B1CD3F9160079989C /* Debug */,
+				0C46DA0C1CD3F9160079989C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C46D9D41CD3F9130079989C /* Project object */;
+}
